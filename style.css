@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 2vh 2vw;
+}
+textarea,
+#language {
+  font-size: 16px !important;
+}
+#language {
+  float: right;
+  padding: 5px;
+}
+#resultBox {
+  background-color: black;
+  color: white;
+}
+#compile {
+  max-width: 100px;
+}
